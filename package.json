@@ -22,6 +22,9 @@
   "devDependencies": {
     "coffee-script": "^1.12.6"
   },
+  "scripts": {
+    "start": "EXPRESS_PORT=${LEANCLOUD_APP_PORT} sh ./bin/hubot -a bearychat"
+  },
   "engines": {
     "node": "8.x"
   }
